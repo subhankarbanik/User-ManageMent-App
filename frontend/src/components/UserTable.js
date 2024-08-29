@@ -17,12 +17,12 @@ function UserTable() {
   }, []);
 
   const fetchUsers = async () => {
-    const response = await axios.get("http://localhost:5001/api/users");
+    const response = await axios.get("https://user-management-app-1-nl7t.onrender.com/api/users");
     setUsers(response.data);
   };
 
   const handleDelete = async () => {
-    await axios.delete(`http://localhost:5001/api/users/${deleteUserId}`);
+    await axios.delete(`https://user-management-app-1-nl7t.onrender.com/api/users/${deleteUserId}`);
     setDeleteUserId(null);
     fetchUsers();
   };

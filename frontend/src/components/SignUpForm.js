@@ -13,7 +13,7 @@ function SignUpForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5001/api/users', user);
+      await axios.post('https://user-management-app-1-nl7t.onrender.com/api/users', user);
       setShowForm(false);
       // Optionally, refresh the user table here
       setUser({
