@@ -21,7 +21,9 @@ Make sure you have the following installed on your system:
   npm (v6.x or higher)
   MongoDB Atlas account
   Installation
-
+## Deployed link:
+   https://66d0b4b1c95d585f73841a4d--usermanagementapp01.netlify.app/
+   https://user-manage-ment-app.vercel.app/
 ## Clone the repository:
   git clone https://github.com/subhankarbanik/User-ManageMent-App.git
   cd User-ManageMent-App
